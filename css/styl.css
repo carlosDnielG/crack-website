@@ -1,0 +1,20 @@
+@keyframes fondo{
+	0%{background-color: pink;}
+	40%{background-color:yellow;}
+	80%{background-color:red;}
+	90%{background-color:cyan;}
+	100%{background-color:black;}
+}
+
+body{
+	animation: fondo;
+	animation-name: fondo;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+}
+.container{
+	margin-top:10%;
+}
+.border{
+	transform: scale(1,1);
+}
